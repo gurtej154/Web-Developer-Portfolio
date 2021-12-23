@@ -15,7 +15,7 @@ app.use(express.json());
 
 // Get route
 app.get("/", (req, res) => {
-  res.sendFile(path.join(initialPath, "index.html"));
+  res.sendFile(path.join(initialPath, "/public/html/index.html"));
 });
 
 // Post request
