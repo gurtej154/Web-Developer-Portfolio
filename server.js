@@ -31,8 +31,8 @@ app.post("/mail", (req, res) => {
   });
 
   const mailOptions = {
-    from: "enter sender email here",
-    to: "enter reciever email here",
+    from: process.env.EMAIL,
+    to: "gurtej154@gmail.com",
     subject: "Postfolio",
     text: `First name: ${firstname}, \nLast name: ${lastname}, \nSubject: ${subject} \nEmail: ${email}, \nMessage: ${msg}`,
   };
@@ -42,6 +42,7 @@ app.post("/mail", (req, res) => {
       console.log(err);
       res.json("opps! It seems like some error occurred");
     } else {
+      console.log("email sent!");
       res.json(
         "Thanks for emailing me, i will reply to you within two working days."
       );
