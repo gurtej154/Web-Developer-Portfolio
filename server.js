@@ -1,5 +1,5 @@
 const express = require("express");
-const req = require("express/lib/request");
+// const req = require("express/lib/request");
 const path = require("path");
 const nodemailer = require("nodemailer");
 const dotenv = require("dotenv");
@@ -15,7 +15,7 @@ app.use(express.json());
 
 // Get route
 app.get("/", (req, res) => {
-  res.sendFile(path.join(initialPath, "/public/html/index.html"));
+  res.sendFile(path.join(initialPath, "/html/index.html"));
 });
 
 // Post request
