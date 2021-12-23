@@ -1,0 +1,19 @@
+{
+  "name": "web-developer-portfolio",
+  "version": "1.0.0",
+  "description": "A web portfolio, showcasing Gurtej Singh's skills, experiences and projects, alongside his contact details and employment status.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Gurtej Singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemailer": "^6.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
