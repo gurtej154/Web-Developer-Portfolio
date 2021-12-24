@@ -44,7 +44,7 @@ app.post("/mail", (req, res) => {
     } else {
       console.log("email sent!");
       res.json(
-        "Thanks for emailing me, i will reply to you within two working days."
+        "Thanks for emailing me, I will reply to you within two working days."
       );
     }
   });
@@ -53,27 +53,3 @@ app.post("/mail", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Now listening on port: http://localhost:${PORT}`);
 });
-
-// const express = require("express");
-// const app = express();
-
-// const PORT = process.env.PORT || 3001;
-
-// // Middleware
-// app.use(express.static("public"));
-
-// // Get route for web portfolio
-// app.get("/", (req, res) => {
-//   res.sendFile(__dirname + "/public/html/index.html");
-//   // res.sendFile(path.join(__dirname, "/public/html/index.html"));
-// });
-
-// // Get route for contact form
-// app.get("/", (req, res) => {
-//   res.sendFile(__dirname + "/public/html/contactform.html");
-//   // res.sendFile(path.join(__dirname, "/public/html/index.html"));
-// });
-
-// app.listen(PORT, () => {
-//   console.log(`Now listening on port: http://localhost:${PORT}`);
-// });
