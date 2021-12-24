@@ -32,7 +32,7 @@ app.post("/mail", (req, res) => {
 
   const mailOptions = {
     from: process.env.EMAIL,
-    to: "gurtej154@gmail.com",
+    to: "gurtej154@outlook.com",
     subject: "Postfolio",
     text: `First name: ${firstname}, \nLast name: ${lastname}, \nSubject: ${subject} \nEmail: ${email}, \nMessage: ${msg}`,
   };
