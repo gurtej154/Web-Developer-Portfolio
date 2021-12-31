@@ -30,10 +30,10 @@
     <img src="assets/README-Logo.gif" alt="Logo" width="100" height="100">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Web Developer Portfolio</h3>
 
   <p align="center">
-    Web Developer Portfolio
+    A portfolio of projects and key information about the author
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
