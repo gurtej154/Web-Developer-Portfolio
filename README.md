@@ -38,7 +38,7 @@
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://gurtej-singh-web-portfolio.herokuapp.com/">View Demo</a>
+    <a href="https://gurtej-singh-web-portfolio.herokuapp.com/" target="_blank">View Demo</a>
     ·
     <a href="https://github.com/gurtej154/Web-Developer-Portfolio">Report Bug</a>
     ·
