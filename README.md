@@ -16,10 +16,10 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
+[![Contributors][contributors-shield]](https://github.com/gurtej154/Web-Developer-Portfolio)
+[![Forks][forks-shield]](https://github.com/gurtej154/Web-Developer-Portfolio)
+[![Stargazers][stars-shield]](https://github.com/gurtej154/Web-Developer-Portfolio)
+[![Issues][issues-shield]](https://github.com/gurtej154/Web-Developer-Portfolio)
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/gurtej-singh-336621224/)
 
