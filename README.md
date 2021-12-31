@@ -21,13 +21,13 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/gurtej-singh-336621224/)
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/gurtej154/Web-Developer-Portfolio">
-    <img src="images/logo.png" alt="Logo" width="100" height="100">
+    <img src="images/README-Logo.gif" alt="Logo" width="100" height="100">
   </a>
 
 <h3 align="center">Web Developer Portfolio</h3>
