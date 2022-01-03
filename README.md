@@ -78,7 +78,9 @@
 
 ![gif](/assets/Iphone-mode.gif)![image](/assets/Iphone-mode.png)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
+As a Developer, I would like website that showcases my skills, experiences, hobbies, current or desired employment and my projects. A web portfolio that describes my credibility and integrity as software developer that would benefit any tech company.
+This web portfolio is designed to give a brief overview of who I am as an individual and my skills and experiences as Developer. The structure of the website follows from a profile and title to skills in programming to skills in multiple areas of work and then to personal experiences, which then finally leads the viewer to the contact section and how to visit my personal social media accounts.
+The web portfolio is designed both to be in both desktop and mobile versions and is updated regularly.
 
 ![gif](/assets/Laptop-mode.gif)
 
@@ -86,12 +88,9 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-- [Next.js](https://nextjs.org/)
-- [React.js](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Angular](https://angular.io/)
-- [Svelte](https://svelte.dev/)
-- [Laravel](https://laravel.com)
+- [Express](https://expressjs.com/)
+- [Dotenv](https://www.npmjs.com/package/dotenv)
+- [Nodemailer](https://nodemailer.com/about/)
 - [Bootstrap](https://getbootstrap.com)
 - [JQuery](https://jquery.com)
 
@@ -101,32 +100,24 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Clone the repository and install the npm packages
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+None at this stage
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
+
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/gurtej154/Web-Developer-Portfolio.git
+
    ```
-3. Install NPM packages
+
+2. Install NPM packages
    ```sh
    npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -135,9 +126,17 @@ This is an example of how to list things you need to use the software and how to
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+To ulitise this application, the following need to be installed and implemented in the command line.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+- Npm init - for node packages
+- Npm install - for multiple packages
+- Npm install inquirer - answer questions and submit the anwswers to the database
+- Npm dotenv - protect private or personal credentials from being made public within the repository
+- Npm figlet - creates unique and interesting headings
+- Npm mysql2 - enhances the existing mysql system
+- Npm i - installs all the packages within the cloned repository
+
+Type (npm start) to gain access to the employee management system within the terminal.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -145,12 +144,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
-- [] Feature 1
-- [] Feature 2
-- [] Feature 3
-  - [] Nested Feature
+- Constantly updating to current standards
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/gurtej154/Web-Developer-Portfolio/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -183,9 +179,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Gurtej Singh - [gurtej154](gurtej154@gmail.com)
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [Repository](https://github.com/gurtej154/Web-Developer-Portfolio)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -193,9 +189,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 ## Acknowledgments
 
-- []()
-- []()
-- []()
+- N/A
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
